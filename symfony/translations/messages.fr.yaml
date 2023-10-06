@@ -1,3 +1,4 @@
 home:
   name: Page d'accueil
-  titleTag: New project
+  titleTag: Newsletter - Sign up !
+  metaDescription: Frontend Mentor challenge to create a form for people to subscribe at a newsletter.
