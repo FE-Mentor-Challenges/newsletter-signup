@@ -1,7 +1,6 @@
 *{
   box-sizing: border-box;
   font-family: "Roboto";
-  font-weight: 500;
 }
   
 body{
@@ -9,7 +8,10 @@ body{
   width: 100%;
 }
 
-p,
-.btn{
+p{
   font-size: 16px;
+}
+
+.hidden{
+  visibility: hidden;
 }

@@ -13,7 +13,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        padding: 1rem;
+        padding: 1rem;        
 
         &-text{
             color: $dark-slate-grey;
@@ -58,6 +58,7 @@
                 gap: 1.5rem;
 
                 &-input{
+                    position: relative;
 
                     input{
                         width: 100%;
@@ -72,7 +73,47 @@
                         color: $dark-slate-grey;
                         margin: 0 0 0.5rem 0;
                     }
+
+                    .valid-text{
+                        color: $tomato;
+                        position: absolute;
+                    }
                 }
+            }
+        }
+    }
+
+    .success{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1rem;
+        background-color: $white;
+        border-radius: 30px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 3.5rem;
+        width: 33rem;
+
+        &-img{
+            width: 4rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &-message{
+
+            &-title{
+                font-size: 64px;
+                margin: 0;
+                line-height: 4rem;
+            }
+
+            &-info{
+                line-height: 1.5rem;
             }
         }
     }
